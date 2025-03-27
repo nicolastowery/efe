@@ -2,7 +2,7 @@ import Speaker from "../assets/speaker.png";
 import { CiLocationOn } from "react-icons/ci";
 function Details() {
   return (
-    <div className="p-20 flex justify-center">
+    <div className="p-10 md:p-20 flex justify-center">
       <div className="max-w-4xl">
         <h1 className="text-center text-violet-500 tracking-tight text-5xl md:text-8xl leading-11 md:leading-19 font-bold uppercase first">
           The Evidence for Easter

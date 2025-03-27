@@ -10,7 +10,7 @@ function Header() {
         <ul className="lowercase tracking-tight flex justify-center md:justify-end items-center gap-10 md:gap-20 h-[50px] px-8 py-4">
           <li>
             <NavLink
-              to="/"
+              to="/efe"
               className={`${
                 activePath !== "/details" && activePath !== "/submit-questions"
                   ? "text-slate-100 border-b-2"
@@ -22,9 +22,9 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/details"
+              to="/efe/details"
               className={`${
-                activePath === "/details"
+                activePath === "/efe/details"
                   ? "text-slate-100 border-b-2"
                   : "hover:text-slate-100 text-slate-300 border-slate-100"
               } hover:border-b-2 border-slate-100`}
@@ -34,9 +34,9 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/submit-questions"
+              to="/efe/submit-questions"
               className={`${
-                activePath === "/submit-questions"
+                activePath === "/efe/submit-questions"
                   ? "text-slate-100 border-b-2"
                   : "hover:text-slate-100 text-slate-300 border-slate-100"
               } hover:border-b-2 border-slate-100`}

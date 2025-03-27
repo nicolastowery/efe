@@ -7,9 +7,11 @@ function Main() {
   return (
     <main className="bg-slate-950 text-slate-100 overflow-auto">
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="details" element={<Details />} />
-        <Route path="submit-questions" element={<SubmitQuestions />} />
+        <Route path="/efe">
+          <Route index element={<Home />} />
+          <Route path="details" element={<Details />} />
+          <Route path="submit-questions" element={<SubmitQuestions />} />
+        </Route>
       </Routes>
     </main>
   );

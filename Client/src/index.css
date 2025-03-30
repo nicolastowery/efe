@@ -57,19 +57,19 @@ body,
 }
 
 main {
-  height: calc(100vh - 50px);
+  height: calc(100dvh - 50px);
 }
 
 .home {
-  background-image: url("assets/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
   height: 100%;
 }
 
-.submit {
+.home-banner {
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 92dvh;
 }
 
 .submit:hover {

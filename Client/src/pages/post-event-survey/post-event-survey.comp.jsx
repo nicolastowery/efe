@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-function SubmitQuestions() {
+function PostEventSurvey() {
   const form = useRef();
   const [submitted, setSubmitted] = useState(false);
 
@@ -22,11 +22,11 @@ function SubmitQuestions() {
       {!submitted ? (
         <div className="max-w-4xl">
           <h1 className="text-center text-violet-500 tracking-tight text-4xl md:text-8xl leading-8 mb-2 md:mb-4 md:leading-19 font-bold uppercase first">
-            Submit Questions
+            Post-Event Survey
           </h1>
           <h2 className="mb-4 md:mb-8 md:text-2xl font-semibold second leading-5 md:leading-6">
-            Enter your questions for the upcoming Q&A session, and Dr. Sims will
-            do his best to answer your questions!
+            Thank you for attending Evidence for Easter. Please share your
+            thoughts below.
           </h2>
           <form
             ref={form}
@@ -48,11 +48,11 @@ function SubmitQuestions() {
       ) : (
         <div className="max-w-4xl">
           <h1 className="text-center text-violet-500 tracking-tight text-4xl md:text-8xl leading-8 mb-2 md:mb-4 md:leading-19 font-bold uppercase first">
-            Questions Submitted
+            Survey Submitted
           </h1>
           <h2 className="mb-4 md:mb-8 md:text-2xl font-semibold second leading-5 md:leading-6">
-            Thank you for taking the time to submit your questions for Dr. Sims
-            to answer! We hope to see you at the event.
+            Thank you for taking the time to fill out the post-event survey!
+            This will help make the event better for next year.
           </h2>
         </div>
       )}
@@ -60,4 +60,4 @@ function SubmitQuestions() {
   );
 }
 
-export default SubmitQuestions;
+export default PostEventSurvey;

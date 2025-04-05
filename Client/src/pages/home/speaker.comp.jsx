@@ -4,7 +4,7 @@ import SpeakerImg from "../../assets/speaker.png";
 function Speaker() {
   return (
     <Section title="Meet Dr. Sims">
-      <div className="flex flex-col items-center gap-5 pt-5">
+      <div className="flex flex-col items-center gap-5">
         <img
           src={SpeakerImg}
           alt="Dr. Sims"

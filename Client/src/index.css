@@ -82,15 +82,15 @@ main {
 }
 
 .easter {
-  animation: fade-in-from-bottom 0.9s 1s backwards;
+  animation: fade-in-from-bottom 0.9s 0.5s backwards;
 }
 .evidence-for {
-  animation: fade-in-from-left 0.9s 1.3s backwards;
+  animation: fade-in-from-left 0.9s 0.9s backwards;
 }
 
-.presented-by {
+/* .presented-by {
   animation: fade-in-from-bottom 0.9s 0.1s backwards;
-}
+} */
 
 .first {
   animation: fade-in-from-top 0.8s 0.1s backwards;

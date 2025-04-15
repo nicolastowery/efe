@@ -14,9 +14,6 @@ function Banner() {
           className="easter md:mt-[-34px] mt-[-20px]"
         />
       </div>
-      <span className="text-slate-50/85 rounded-sm uppercase font-semibold tracking-wide md:tracking-wider text-[0.7rem] md:text-[0.9rem] bg-violet-600/50 p-2 md:p-3 leading-3 presented-by">
-        a presentation of the baptist collegiate ministry
-      </span>
     </section>
   );
 }

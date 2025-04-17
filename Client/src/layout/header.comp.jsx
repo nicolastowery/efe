@@ -32,6 +32,18 @@ function Header() {
               Submit Questions
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/post-event-survey"
+              className={`${
+                activePath === "/post-event-survey"
+                  ? "text-slate-100 border-b-2"
+                  : "hover:text-slate-100 text-slate-300 border-slate-100"
+              } hover:border-b-2 border-slate-100`}
+            >
+              Survey
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
